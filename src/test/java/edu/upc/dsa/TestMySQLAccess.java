@@ -10,4 +10,9 @@ public class TestMySQLAccess {
         MySQLAccess dao = new MySQLAccess();
         dao.readDataBase();
     }
-} 
+
+    @Test
+    public void test2() throws Exception {
+        System.out.println("HELLO!");
+    }
+}
